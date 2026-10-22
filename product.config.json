@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "productFamily": "Know Your Cycle",
+  "currency": "NGN",
+  "priceUnit": "whole_naira",
+  "locale": "en-NG",
+  "audience": "Adult Nigerian women seeking menstrual-health education",
+  "dreamOutcome": "Understand your cycle, feel prepared for appointments and know your next step.",
+  "products": {
+    "main": {
+      "id": "know-your-cycle",
+      "title": "Know Your Cycle",
+      "price": 3900,
+      "format": "PDF",
+      "pageCount": 28,
+      "cover": "assets/know-your-cycle-cover.webp"
+    },
+    "upsell": {
+      "id": "planning-for-pregnancy",
+      "title": "Planning for Pregnancy",
+      "price": 2900,
+      "format": "PDF",
+      "pageCount": 23,
+      "optional": true,
+      "selectedByDefault": false,
+      "cover": "assets/planning-for-pregnancy-cover.webp"
+    },
+    "bonus": {
+      "id": "cycle-appointment-planner",
+      "title": "Cycle & Appointment Planner",
+      "price": 0,
+      "format": "Printable and fillable PDF",
+      "pageCount": 10,
+      "includedWithMain": true,
+      "cover": "assets/cycle-planner-cover.webp"
+    }
+  },
+  "offer": {
+    "defaultSelection": "main",
+    "combinedTotalRule": "main.price + upsell.price",
+    "expectedCombinedTotal": 6800,
+    "bonusLabel": "FREE",
+    "physicalShipping": false,
+    "subscription": false
+  },
+  "checkout": {
+    "provider": "Selar",
+    "mainUrl": "https://selar.com/127x1q2k2o",
+    "mainVerified": true,
+    "mainVerificationSource": "Product and included planner checked on Selar; price confirmed by publisher in chat on 2026-10-22.",
+    "combinedUrl": null,
+    "combinedVerified": false,
+    "upsellUrl": null,
+    "upsellVerified": false,
+    "deliveryVerified": false,
+    "deliveryCopy": null,
+    "feeDisclosure": null
+  },
+  "release": {
+    "salesEnabled": true,
+    "checkoutApproval": {
+      "approved": true,
+      "scope": "main_only_current_draft",
+      "mainUrl": "https://selar.com/127x1q2k2o",
+      "price": 3900,
+      "approvedOn": "2026-10-22",
+      "source": "Publisher instruction in chat: dont worry, the price is ok, go ahead approve"
+    },
+    "publicationStatus": "draft_for_clinical_review",
+    "clinicalReviewComplete": false,
+    "finalEditorialApproval": false,
+    "reviewRecord": null,
+    "approvedAssetsReady": false,
+    "allowIndexing": false
+  },
+  "seller": {
+    "displayName": "Tokunbo Akomolede",
+    "supportEmail": null,
+    "supportUrl": null,
+    "privacyUrl": null,
+    "termsUrl": null,
+    "refundPolicyUrl": null,
+    "refundSummary": null
+  },
+  "urgency": {
+    "enabled": false,
+    "type": null,
+    "approvedCopy": null,
+    "endsAt": null,
+    "timeZone": "Africa/Lagos",
+    "afterExpiry": null,
+    "checkoutTermsVerified": false
+  },
+  "scarcity": {
+    "enabled": false,
+    "reason": null,
+    "verifiedCapacity": null
+  },
+  "analytics": {
+    "enabled": false,
+    "provider": null,
+    "siteId": null
+  },
+  "design": {
+    "colors": {
+      "plum": "#3C1635",
+      "forest": "#183E35",
+      "ivory": "#FBF7F0",
+      "ink": "#251F26",
+      "mutedGold": "#A98648",
+      "softLilac": "#EEE5EC",
+      "white": "#FFFFFF"
+    },
+    "headingFont": "Noto Serif",
+    "bodyFont": "Rubik"
+  },
+  "sampleAssets": [
+    "assets/sample-cycle-counting.webp",
+    "assets/sample-clinic-preparation.webp",
+    "assets/sample-appointment-planner.webp"
+  ],
+  "notes": [
+    "Null values mean unknown; never display them as customer-facing template text.",
+    "Page counts describe the current draft and must be reconciled with the final edition.",
+    "Only a real verified combined checkout can take payment for both guides at 6800 NGN.",
+    "No real deadline, scarcity claim, testimonial, clinician credit or discount is approved."
+  ]
+}

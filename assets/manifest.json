@@ -1,0 +1,77 @@
+{
+  "assets": [
+    {
+      "path": "assets/know-your-cycle-cover.webp",
+      "sourcePdf": "01_Know_Your_Cycle.pdf",
+      "sourcePage": 1,
+      "width": 1080,
+      "height": 1512,
+      "bytes": 176684,
+      "alt": "Know Your Cycle cover",
+      "caption": "Main guide; draft cover",
+      "status": "draft_for_clinical_review",
+      "replaceAfterFinalReview": true
+    },
+    {
+      "path": "assets/planning-for-pregnancy-cover.webp",
+      "sourcePdf": "02_Planning_for_Pregnancy.pdf",
+      "sourcePage": 1,
+      "width": 1080,
+      "height": 1512,
+      "bytes": 146474,
+      "alt": "Planning for Pregnancy cover",
+      "caption": "Optional upsell; draft cover",
+      "status": "draft_for_clinical_review",
+      "replaceAfterFinalReview": true
+    },
+    {
+      "path": "assets/cycle-planner-cover.webp",
+      "sourcePdf": "03_Cycle_and_Appointment_Planner_Fillable.pdf",
+      "sourcePage": 1,
+      "width": 1080,
+      "height": 1512,
+      "bytes": 48188,
+      "alt": "Cycle & Appointment Planner cover",
+      "caption": "Included bonus; draft cover",
+      "status": "draft_for_clinical_review",
+      "replaceAfterFinalReview": true
+    },
+    {
+      "path": "assets/sample-cycle-counting.webp",
+      "sourcePdf": "01_Know_Your_Cycle.pdf",
+      "sourcePage": 7,
+      "width": 1080,
+      "height": 1512,
+      "bytes": 103886,
+      "alt": "Worked calendar example from Know Your Cycle, page 7",
+      "caption": "Sample: how cycle length is counted",
+      "status": "draft_for_clinical_review",
+      "replaceAfterFinalReview": true
+    },
+    {
+      "path": "assets/sample-clinic-preparation.webp",
+      "sourcePdf": "01_Know_Your_Cycle.pdf",
+      "sourcePage": 22,
+      "width": 1080,
+      "height": 1512,
+      "bytes": 126692,
+      "alt": "Clinic preparation page from Know Your Cycle, page 22",
+      "caption": "Sample: preparing a useful appointment summary",
+      "status": "draft_for_clinical_review",
+      "replaceAfterFinalReview": true
+    },
+    {
+      "path": "assets/sample-appointment-planner.webp",
+      "sourcePdf": "03_Cycle_and_Appointment_Planner_Fillable.pdf",
+      "sourcePage": 7,
+      "width": 1080,
+      "height": 1512,
+      "bytes": 43404,
+      "alt": "Blank appointment worksheet from the Cycle & Appointment Planner, page 7",
+      "caption": "Sample: before the appointment",
+      "status": "draft_for_clinical_review",
+      "replaceAfterFinalReview": true
+    }
+  ],
+  "use": "Private local page preview. Replace with reviewed final-edition exports before public sale. Do not remove draft labels cosmetically."
+}
